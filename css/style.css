@@ -1,0 +1,243 @@
+@import url(reset.css);
+
+body{
+	background: url(../images/bg.gif);
+}
+
+a{
+	text-decoration: none;
+	font: 21pt "Gabriola", "Monotype Corsiva", cursive;
+	color: #ffffff;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#wrapper{
+	min-width: 960px;
+	max-width: 1300px;
+	margin: 130px 0;
+	overflow: hidden;
+}
+
+.menu{
+	margin-left: 13px;
+	width: 436px;
+	height: 575px;
+	background: url(../images/menu_bg.png);
+	float: left;
+}
+
+
+.menu ul li{
+	padding-top: 41px;
+	height: 40px;
+}
+
+.menu ul li:first-child{
+	padding-top: 60px;
+}
+
+
+.menu ul li a{
+	margin-left: 115px;
+}
+
+.menu ul li:last-child{
+	margin-left: 53px;
+}
+
+.content{
+	width: 502px;
+	height: 502px;
+	margin-left: 460px;
+	margin-top: 35px;
+}
+
+.chat{
+	margin-left: 500px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.holder-html-chat{ border: 1px solid #ccc;padding:10px;background-color: #3a3a3a;max-width: 600px; min-width: 430px;}
+.html-chat-history{ max-width: 600px; overflow: auto;max-height: 350px; border: 1px solid #ccc;padding: 5px; background: #262525; color: #fff;}
+.html-chat-js-name{ margin-top:10px; background: #262525; color: #fff;}
+.html-chat-js-input{min-width: 402px;max-width:452px;max-height: 100px;width: 600px;margin-top:10px; background: #262525; color: #fff;}
+.html-chat-js-button-holder{ margin-bottom: 0px;margin-top: 10px; }
+.html-chat-js-button-holder input{ width: 220px; background: #262525; color: #fff;}
+.html-chat-js-answer{ float:right; }
+.html-chat-js-answer a{ color: #fff;font-size: 12px; font-family: cursive;}
+.html-chat-js-answer a:hover{ color: #fff;font-size: 12px; font-family: cursive;}
+.html-chat-msg{ margin: 0px; }
+
+#price{
+	margin-left: 472px;
+}
+
+#wrapper_price{
+	min-width: 1300px;
+	max-width: 960px;
+	margin: 93px 0;
+	overflow: hidden;
+}
+
+#menu_price{
+	margin-top: 160px;
+	margin-left: 20px;
+}
+
+.forum{
+	background: url(../images/forum-bg.jpg);
+	overflow: hidden;
+	min-width: 300px;
+	max-width: 700px;
+	margin-left: 476px;
+	margin-top: 35px;
+	margin-right: 10px;
+	padding-right: 50px;
+	padding-left: 23px;
+}
+
+#forum-menu{
+	float: right;
+	margin-top: 11px;
+	color: #7b7a75;
+	font-size: 12px;
+}
+
+#forum-menu ul li a{
+	color: #c1a478;
+	font: 10px Arial, Tahoma, Verdana, sans-serif;
+}
+
+#forum-menu ul li a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.forum-menu{
+	float: left;
+	margin-right: 12px;
+}
+
+#test, #add-in{
+	text-transform: uppercase;
+	color: #fff;
+	font: 20px Arial, Tahoma, Verdana, sans-serif;
+	font-weight: bold;
+	margin-top: 70px;
+}
+
+#forum-info{
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.forum-info, #visitors, #statistic-forum{
+	background: url(../images/forum-info-bg.jpg);
+	border: 1px solid #3b3a38;
+	height: 20px;
+	color: #9c988d;
+	font:12px Arial, Tahoma, Verdana, sans-serif;
+}
+
+.a{width: 3%; float: left; padding: 12px 13px;}
+.b{width: 30%; float: left; padding: 12px 13px;}
+.c{width: 6%; float: left; padding: 12px 13px;}
+.d{width: 6%; float: left; padding: 12px 13px;}
+.e{width: 22%; float: left; padding: 12px 13px;}
+
+.post{
+	border-bottom: 2px solid #3b3734;
+	overflow: hidden;
+}
+
+.a img{
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.b a, .e a{
+	color: #c1a478;
+	font: 15px Arial, Tahoma, Verdana, sans-serif;
+}
+
+.b a:hover, .e a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.b p{
+	color: #a4a097;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.c p, .d p{
+	text-align: center;
+	color: #9c988d;
+	margin-top: 7px;
+	font: 12px Arial, Tahoma, Verdana, sans-serif;
+}
+
+.e p, .e span{
+	font:11px Arial, Tahoma, Verdana, sans-serif;
+	color: #6f6f6d;
+}
+
+.e a{
+	font-size: 11px;
+}
+
+#all-post-com{
+	color: #7b7a75;
+	font-size: 14px;
+	float: right;
+	margin-top: 5px;
+}
+
+#all-post-com a, #new-user{
+	color: #c1a478;
+	font: 12px Arial, Tahoma, Verdana, sans-serif;
+}
+
+#all-post-com a:hover, #new-user:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+#additional-information{
+	padding-bottom: 10px;
+	border-bottom: 2px solid #3b3734;
+	margin-bottom: 25px;
+}
+
+#visitors, #statistic-forum{
+	padding-left: 14px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 14px;
+}
+
+.statistic{
+	overflow: hidden;
+	color: #9b948a;
+	font: 12px/1.4 Arial, Tahoma, Verdana, sans-serif;
+	margin-top: 10px;
+}
+
+.statistic p{
+	margin-left: 52px;
+	margin-top: 5px;
+}
+
+.statistic img{
+	float: left;
+	margin-left: 12px;
+}
+
+#statistic{
+	margin-top: 3px;
+}
